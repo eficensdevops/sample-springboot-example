@@ -27,6 +27,20 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>libs-snapshot</name>
+        <url>http://ec2-54-226-246-228.compute-1.amazonaws.com:8081/artifactory/libs-release</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>libs-snapshot</name>
+        <url>http://ec2-54-226-246-228.compute-1.amazonaws.com:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
+  
 
     <build>
     	<finalName>docker-java-app-example</finalName>
