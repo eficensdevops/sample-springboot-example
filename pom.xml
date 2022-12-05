@@ -60,7 +60,6 @@
               </checkModificationExcludes>
           </configuration>
        </plugin> 
-      </plugins>
 
       <plugin>
         <groupId>org.sonarsource.scanner.maven</groupId>
