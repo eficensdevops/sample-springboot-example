@@ -67,7 +67,7 @@
       </plugin>
 
 
-        </plugins>
+       </plugins>
     </build>
 
   <scm>
