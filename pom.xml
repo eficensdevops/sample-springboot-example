@@ -63,6 +63,10 @@
         <groupId>org.sonarsource.scanner.maven</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
         <version>3.7.0.1746</version>
+        <configuration>
+        <sonar.sources>src/main/java</sonar.sources>
+        <sonar.exclusions>file:**/src/main/java/**/*_.*</sonar.exclusions>
+    </configuration>
       </plugin>
 
 
